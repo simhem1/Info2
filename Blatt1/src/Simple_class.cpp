@@ -4,9 +4,8 @@
  *  Created on: 18.04.2016
  *      Author: simon
  */
-#include "../Blatt1/src/Simple_class.hpp"
 
-#include <iostream>
+#include "Simple_class.hpp"
 
 Simple_class :: Simple_class (int value){
 	this->value = value;

@@ -4,7 +4,8 @@
  *  Created on: 18.04.2016
  *      Author: simon
  */
-#include "../Info2/Blatt1/src/Linked_list.hpp"
+
+#include "Linked_list.hpp"
 
 Linked_list :: Linked_list(const std::string& data){
 	this->data=data;

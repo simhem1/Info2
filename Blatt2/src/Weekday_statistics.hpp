@@ -15,7 +15,6 @@
  *      Author: simon
  */
 
-#include <vector>
 
 class Weekday_statistics{
 

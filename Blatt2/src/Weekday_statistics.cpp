@@ -82,50 +82,52 @@ using namespace std;
 
 	Weekday_statistics Weekday_statistics :: count_13th(int start_year, int year_offset){
 		Weekday_statistics Weekday_statistic;
-		vector<int> temp;
 		int i=0;
+		int j=0;
+		int *temp;
+		temp=new int[year_offset*12];
 		bool schaltjahr=false;
 		do{
 			if(((start_year+i)%4==0)||(((start_year+i)%100==0)&&((start_year+i)%400==0)))
 				schaltjahr=true;
 			if(schaltjahr==true){
-					temp.push_back((12+(start_year-1900)%7)%7);
-					temp.push_back((43+(start_year-1900)%7)%7);
-					temp.push_back((72+(start_year-1900)%7)%7);
-					temp.push_back((103+(start_year-1900)%7)%7);
-					temp.push_back((133+(start_year-1900)%7)%7);
-					temp.push_back((165+(start_year-1900)%7)%7);
-					temp.push_back((194+(start_year-1900)%7)%7);
-					temp.push_back((225+(start_year-1900)%7)%7);
-					temp.push_back((256+(start_year-1900)%7)%7);
-					temp.push_back((286+(start_year-1900)%7)%7);
-					temp.push_back((317+(start_year-1900)%7)%7);
-					temp.push_back((347+(start_year-1900)%7)%7);
+					temp[j]=((12+(start_year-1900)%7)%7); j++;
+					temp[j]=((43+(start_year-1900)%7)%7); j++;
+					temp[j]=((72+(start_year-1900)%7)%7); j++;
+					temp[j]=((103+(start_year-1900)%7)%7); j++;
+					temp[j]=((133+(start_year-1900)%7)%7); j++;
+					temp[j]=((165+(start_year-1900)%7)%7); j++;
+					temp[j]=((194+(start_year-1900)%7)%7); j++;
+					temp[j]=((225+(start_year-1900)%7)%7); j++;
+					temp[j]=((256+(start_year-1900)%7)%7); j++;
+					temp[j]=((286+(start_year-1900)%7)%7); j++;
+					temp[j]=((317+(start_year-1900)%7)%7); j++;
+					temp[j]=((347+(start_year-1900)%7)%7); j++;
 
 
 			}
 
 			else{
-					temp.push_back((12+(start_year-1900)%7)%7);
-					temp.push_back((43+(start_year-1900)%7)%7);
-					temp.push_back((71+(start_year-1900)%7)%7);
-					temp.push_back((102+(start_year-1900)%7)%7);
-					temp.push_back((132+(start_year-1900)%7)%7);
-					temp.push_back((164+(start_year-1900)%7)%7);
-					temp.push_back((193+(start_year-1900)%7)%7);
-					temp.push_back((224+(start_year-1900)%7)%7);
-					temp.push_back((255+(start_year-1900)%7)%7);
-					temp.push_back((285+(start_year-1900)%7)%7);
-					temp.push_back((316+(start_year-1900)%7)%7);
-					temp.push_back((346+(start_year-1900)%7)%7);
+					temp[j]=((12+(start_year-1900)%7)%7); j++;
+					temp[j]=((43+(start_year-1900)%7)%7); j++;
+					temp[j]=((71+(start_year-1900)%7)%7); j++;
+					temp[j]=((102+(start_year-1900)%7)%7); j++;
+					temp[j]=((132+(start_year-1900)%7)%7); j++;
+					temp[j]=((164+(start_year-1900)%7)%7); j++;
+					temp[j]=((193+(start_year-1900)%7)%7); j++;
+					temp[j]=((224+(start_year-1900)%7)%7); j++;
+					temp[j]=((255+(start_year-1900)%7)%7); j++;
+					temp[j]=((285+(start_year-1900)%7)%7); j++;
+					temp[j]=((316+(start_year-1900)%7)%7); j++;
+					temp[j]=((346+(start_year-1900)%7)%7); j++;
 
 			}
 
 			i++;
 		}while(i<year_offset);
 
-		for(unsigned int i=0; i<temp.size(); i++){
-			switch(temp.at(i)){
+		for(unsigned int i=0; i<(sizeof(temp)/sizeof(int)); i++){
+			switch(temp[i]){
 				case 0:
 					Weekday_statistic.set_monday_value((Weekday_statistic.get_monday_value()+1)); break;
 				case 1:

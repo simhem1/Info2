@@ -7,6 +7,7 @@ Queue::~Queue(){
 
 }
 void Queue::push(std::string input){
+    //iniziiere stack
     if(q_stack==NULL){
         q_stack=new Linked_list;
     }
@@ -15,10 +16,12 @@ void Queue::push(std::string input){
 }
 std::string Queue::pop(){
     std::string pop_data = q_stack->get();
+    //lösche anfang
     q_stack = q_stack->next();
     return pop_data;
 }
 bool Queue::has_next(){
+    //falls noch nicht initialisiert
     if(q_stack==NULL){
         return false;
     }

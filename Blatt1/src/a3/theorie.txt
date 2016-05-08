@@ -1,1 +1,0 @@
-Da der Pointer der die Dateien Popped der selbe wäre, wie jener, der die Dateien Pushed.

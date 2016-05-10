@@ -126,7 +126,7 @@ using namespace std;
 			i++;
 		}while(i<year_offset);
 
-		for(unsigned int i=0; i<(sizeof(temp)/sizeof(int)); i++){
+		for(int i=0; i<(12*year_offset); i++){
 			switch(temp[i]){
 				case 0:
 					Weekday_statistic.set_monday_value((Weekday_statistic.get_monday_value()+1)); break;

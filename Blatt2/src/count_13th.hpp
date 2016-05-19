@@ -5,8 +5,8 @@
  *      Author: simon
  */
 
-#ifndef BLATT2_SRC_WEEKDAY_STATISTICS_HPP_
-#define BLATT2_SRC_WEEKDAY_STATISTICS_HPP_
+#ifndef BLATT2_SRC_COUNT_13TH_HPP_
+#define BLATT2_SRC_COUNT_13TH_HPP_
 
 /*
  * Weekday_statistics.cpp
@@ -46,4 +46,4 @@ public:
 
 
 
-#endif /* BLATT2_SRC_WEEKDAY_STATISTICS_HPP_ */
+#endif /* BLATT2_SRC_COUNT_13TH_HPP_ */

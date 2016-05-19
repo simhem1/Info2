@@ -15,7 +15,7 @@ class Levenshtein{
 public:
 	Levenshtein();
 	~Levenshtein();
-	int minimal(int**, std::string*, std::string*, int, int);
+	int minimal(int*, std::string*, std::string*, int, int);
 	int levenshtein_distance(std::string, std::string);
 
 };

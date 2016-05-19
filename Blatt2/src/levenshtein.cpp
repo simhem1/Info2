@@ -41,15 +41,9 @@ int Levenshtein :: levenshtein_distance(std::string original, std::string katze)
 	int, es besteht also die Gefahr eines Überlaufs!*/
 	static_cast<int> (m);
 	static_cast<int> (n);
-	int **D = new int* [m];
-	for(unsigned int i=0; i < m; i++)
-		D[i] = new int [n];
-	for(unsigned int i=1; i<m+1; i++)
-		D[i][0]=i;
-	for(unsigned int j=1; j<n+1; j++)
-		D[0][j]=j;
-	for(unsigned int it=0; it<m; it++)
-		delete[] D[it];
+	int *D = NULL;
+	D = new int [m];
+
 	delete[] D;
 
 }

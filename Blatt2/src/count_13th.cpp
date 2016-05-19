@@ -5,7 +5,7 @@
  *      Author: simon
  */
 
-#include "Weekday_statistics.hpp"
+#include "count_13th.hpp"
 
 using namespace std;
 
@@ -81,7 +81,7 @@ using namespace std;
 	}
 
 	Weekday_statistics Weekday_statistics :: count_13th(int start_year, int year_offset){
-		Weekday_statistics Weekday_statistic;
+		Weekday_statistics weekday_statistic;
 		int i=0;
 		int j=0;
 		int *temp;
@@ -129,26 +129,25 @@ using namespace std;
 		for(int i=0; i<(12*year_offset); i++){
 			switch(temp[i]){
 				case 0:
-					Weekday_statistic.set_monday_value((Weekday_statistic.get_monday_value()+1)); break;
+					weekday_statistic.set_monday_value((weekday_statistic.get_monday_value()+1)); break;
 				case 1:
-					Weekday_statistic.set_tuesday_value((Weekday_statistic.get_tuesday_value()+1)); break;
+					weekday_statistic.set_tuesday_value((weekday_statistic.get_tuesday_value()+1)); break;
 				case 2:
-					Weekday_statistic.set_wednesday_value((Weekday_statistic.get_wednesday_value()+1)); break;
+					weekday_statistic.set_wednesday_value((weekday_statistic.get_wednesday_value()+1)); break;
 				case 3:
-					Weekday_statistic.set_thursday_value((Weekday_statistic.get_thursday_value()+1)); break;
+					weekday_statistic.set_thursday_value((weekday_statistic.get_thursday_value()+1)); break;
 				case 4:
-					Weekday_statistic.set_friday_value((Weekday_statistic.get_friday_value()+1)); break;
+					weekday_statistic.set_friday_value((weekday_statistic.get_friday_value()+1)); break;
 				case 5:
-					Weekday_statistic.set_saturday_value((Weekday_statistic.get_saturday_value()+1)); break;
+					weekday_statistic.set_saturday_value((weekday_statistic.get_saturday_value()+1)); break;
 				case 6:
-					Weekday_statistic.set_sunday_value((Weekday_statistic.get_sunday_value()+1)); break;
+					weekday_statistic.set_sunday_value((weekday_statistic.get_sunday_value()+1)); break;
 				default:
 					break;
 			}
 		}
 
-
-		return Weekday_statistic;
+		return weekday_statistic;
 	}
 
 

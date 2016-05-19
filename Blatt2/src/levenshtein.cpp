@@ -7,7 +7,7 @@
 
 #include "levenshtein.hpp"
 
-int Levenshtein :: minimal(int **D, std::string *original, std::string *katze, int i, int j){
+int Levenshtein :: minimal(int *D, std::string *original, std::string *katze, int i, int j){
 	bool charsAreEqual=false;
 	if(original[i]==katze[j])
 		charsAreEqual=true;

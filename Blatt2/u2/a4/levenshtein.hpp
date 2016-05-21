@@ -5,8 +5,8 @@
  *      Author: simon
  */
 
-#ifndef BLATT2_SRC_LEVENSHTEIN_HPP_
-#define BLATT2_SRC_LEVENSHTEIN_HPP_
+#ifndef BLATT2_U2_LEVENSHTEIN_HPP_
+#define BLATT2_U2_LEVENSHTEIN_HPP_
 
 #include <iostream>
 #include <string>
@@ -21,4 +21,4 @@ public:
 
 
 
-#endif /* BLATT2_SRC_LEVENSHTEIN_HPP_ */
+#endif /* BLATT2_U2_LEVENSHTEIN_HPP_ */

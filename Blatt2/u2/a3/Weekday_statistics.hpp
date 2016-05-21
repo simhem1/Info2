@@ -5,8 +5,8 @@
  *      Author: simon
  */
 
-#ifndef BLATT2_SRC_WEEKDAY_STATISTICS_HPP_
-#define BLATT2_SRC_WEEKDAY_STATISTICS_HPP_
+#ifndef BLATT2_U2_WEEKDAY_STATISTICS_HPP_
+#define BLATT2_U2_WEEKDAY_STATISTICS_HPP_
 
 /*
  * Weekday_statistics.cpp
@@ -15,7 +15,7 @@
  *      Author: simon
  */
 
-#include "count_13th.hpp"
+#include "Weekday_statistics.hpp"
 class Weekday_statistics{
 
 private:
@@ -46,4 +46,4 @@ public:
 
 
 
-#endif /* BLATT2_SRC_WEEKDAY_STATISTICS_HPP_ */
+#endif /* BLATT2_U2_WEEKDAY_STATISTICS_HPP_ */

@@ -6,7 +6,6 @@
  */
 
 #include "Weekday_statistics.hpp"
-#include "count_13th.hpp"
 using namespace std;
 
 	Weekday_statistics :: Weekday_statistics(){

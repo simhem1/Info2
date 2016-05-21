@@ -10,7 +10,6 @@
 
 #include <iostream>
 #include <string>
-#include <algorithm>
 class Levenshtein{
 public:
 	Levenshtein();

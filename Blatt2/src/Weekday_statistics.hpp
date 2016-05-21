@@ -15,7 +15,7 @@
  *      Author: simon
  */
 
-
+#include "count_13th.hpp"
 class Weekday_statistics{
 
 private:
@@ -38,6 +38,7 @@ public:
 	void set_saturday_value(int);
 	int get_sunday_value();
 	void set_sunday_value(int);
+	Weekday_statistics count_13th(int, int);
 };
 
 

@@ -13,13 +13,17 @@
 		Weekday_statistics weekday_statistic;
 		int i=0;
 		int j=0;
+		/*Erzeugung eindimensionales Hilfsarray*/
 		int *temp;
 		temp=new int[year_offset*12];
 		bool schaltjahr=false;
 		do{
+			/*Bestimmung ob Schaltjahr oder kein Schaltjahr*/
 			if(((start_year+i)%4==0)||(((start_year+i)%100==0)&&((start_year+i)%400==0)))
 				schaltjahr=true;
 			if(schaltjahr==true){
+					/*Bestimmung des Wochentages am jeweiligen 13ten des Monats
+					 *bei einem Schaltjahr*/
 					temp[j]=((12+(start_year-1900)%7)%7); j++;
 					temp[j]=((43+(start_year-1900)%7)%7); j++;
 					temp[j]=((72+(start_year-1900)%7)%7); j++;
@@ -37,6 +41,8 @@
 			}
 
 			else{
+					/* Bestimmung des Wochentages am jeweiligen 13ten des Monats
+					 * bei einem Nicht-Schaltjahr */
 					temp[j]=((12+(start_year-1900)%7)%7); j++;
 					temp[j]=((43+(start_year-1900)%7)%7); j++;
 					temp[j]=((71+(start_year-1900)%7)%7); j++;
@@ -51,10 +57,11 @@
 					temp[j]=((346+(start_year-1900)%7)%7); j++;
 
 			}
-
+			schaltjahr=false;
 			i++;
 		}while(i<year_offset);
-
+		/*Analyse des Hilfsarrays bzgl. Häufigkeit der Wochentage und
+		 *Zuweisung der Häufigkeit an die entsprechenden Objektattribute*/
 		for(int i=0; i<(12*year_offset); i++){
 			switch(temp[i]){
 				case 0:

@@ -13,9 +13,8 @@ using namespace std;
 
 int main(void){
 	int start_year=1900;
-	int year_offset=1;
-	Weekday_statistics weekday_statistic;
-	weekday_statistic= count_13th(start_year, year_offset);
+	int year_offset=2;
+	Weekday_statistics weekday_statistic=weekday_statistic.count_13th(start_year, year_offset);
 	cout << weekday_statistic.get_monday_value() << " mal Montag" << endl;
 	cout << weekday_statistic.get_tuesday_value() << " mal Dienstag" << endl;
 	cout << weekday_statistic.get_wednesday_value() << " mal Mittwoch" << endl;

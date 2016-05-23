@@ -7,6 +7,8 @@
 
 #include "Weekday_statistics.hpp"
 #include "count_13th.hpp"
+#include <iostream>
+using namespace std;
 
 
 	Weekday_statistics Weekday_statistics :: count_13th(int start_year, int year_offset){
@@ -55,7 +57,6 @@
 					temp[j]=((285+(start_year-1900)%7)%7); j++;
 					temp[j]=((316+(start_year-1900)%7)%7); j++;
 					temp[j]=((346+(start_year-1900)%7)%7); j++;
-
 			}
 			schaltjahr=false;
 			i++;
@@ -82,8 +83,8 @@
 					break;
 			}
 		}
-
 		return weekday_statistic;
+		delete[] temp;
 	}
 
 

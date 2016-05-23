@@ -1,0 +1,2 @@
+O(n^2), da die Schleifen verschachtelt sind und die konstanten Operationen vernachlässigbar
+sind.

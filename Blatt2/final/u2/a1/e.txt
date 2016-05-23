@@ -1,0 +1,2 @@
+O(log N), da O(log N) kleinste Wachstumsklasse für der Grenzwert für N gegen Unendlich von 
+((log(2N)/log(N))/Wachstumsklasse) existiert.

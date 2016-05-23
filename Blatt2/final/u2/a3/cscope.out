@@ -1,0 +1,1051 @@
+cscope 15 $HOME/Uni/info2/Info2/Blatt2/u2/a3               0000006820
+	@/home/f0x/Uni/info2/Info2/Blatt2/u2/a3/Weekday_statistics.cpp
+
+8 
+	~"W“kday_¡©i¡ics.hµ
+"
+
+9 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+11 
+	gW“kday_¡©i¡ics
+ :: 
+	$W“kday_¡©i¡ics
+(){
+
+12 
+mÚday
+=0;
+
+13 
+tuesday
+=0;
+
+14 
+wedÃsday
+=0;
+
+15 
+thursday
+=0;
+
+16 
+äiday
+=0;
+
+17 
+§turday
+=0;
+
+18 
+sunday
+=0;
+
+19 
+	}
+}
+
+21 
+	gW“kday_¡©i¡ics
+ :: ~
+	$W“kday_¡©i¡ics
+(){
+
+23 
+	}
+}
+
+26 
+W“kday_¡©i¡ics
+ :: 
+	$g‘_mÚday_v®ue
+() {
+
+27  
+mÚday
+;
+
+28 
+	}
+}
+
+30 
+	gW“kday_¡©i¡ics
+ :: 
+	$£t_mÚday_v®ue
+(
+mÚday
+) {
+
+31 
+this
+->
+mÚday
+ = monday;
+
+32 
+	}
+}
+
+34 
+	gW“kday_¡©i¡ics
+ :: 
+	$g‘_tuesday_v®ue
+() {
+
+35  
+tuesday
+;
+
+36 
+	}
+}
+
+38 
+	gW“kday_¡©i¡ics
+ :: 
+	$£t_tuesday_v®ue
+(
+tuesday
+) {
+
+39 
+this
+->
+tuesday
+ =uesday;
+
+40 
+	}
+}
+
+42 
+	gW“kday_¡©i¡ics
+ :: 
+	$g‘_wedÃsday_v®ue
+() {
+
+43  
+wedÃsday
+;
+
+44 
+	}
+}
+
+46 
+	gW“kday_¡©i¡ics
+ :: 
+	$£t_wedÃsday_v®ue
+(
+wedÃsday
+) {
+
+47 
+this
+->
+wedÃsday
+ = wednesday;
+
+48 
+	}
+}
+
+50 
+	gW“kday_¡©i¡ics
+ :: 
+	$g‘_thursday_v®ue
+() {
+
+51  
+thursday
+;
+
+52 
+	}
+}
+
+54 
+	gW“kday_¡©i¡ics
+ :: 
+	$£t_thursday_v®ue
+(
+thursday
+) {
+
+55 
+this
+->
+thursday
+ =hursday;
+
+56 
+	}
+}
+
+58 
+	gW“kday_¡©i¡ics
+ :: 
+	$g‘_äiday_v®ue
+() {
+
+59  
+äiday
+;
+
+60 
+	}
+}
+
+62 
+	gW“kday_¡©i¡ics
+ :: 
+	$£t_äiday_v®ue
+(
+äiday
+) {
+
+63 
+this
+->
+äiday
+ = friday;
+
+64 
+	}
+}
+
+66 
+	gW“kday_¡©i¡ics
+ :: 
+	$g‘_§turday_v®ue
+() {
+
+67  
+§turday
+;
+
+68 
+	}
+}
+
+70 
+	gW“kday_¡©i¡ics
+ :: 
+	$£t_§turday_v®ue
+(
+§turday
+) {
+
+71 
+this
+->
+§turday
+ = saturday;
+
+72 
+	}
+}
+
+74 
+	gW“kday_¡©i¡ics
+ :: 
+	$g‘_sunday_v®ue
+() {
+
+75  
+sunday
+;
+
+76 
+	}
+}
+
+78 
+	gW“kday_¡©i¡ics
+ :: 
+	$£t_sunday_v®ue
+(
+sunday
+) {
+
+79 
+this
+->
+sunday
+ = sunday;
+
+80 
+	}
+}
+
+	@/home/f0x/Uni/info2/Info2/Blatt2/u2/a3/Weekday_statistics.hpp
+
+8 #iâdeà
+BLATT2_U2_WEEKDAY_STATISTICS_HPP_
+
+
+9 
+	#BLATT2_U2_WEEKDAY_STATISTICS_HPP_
+
+
+	)
+
+18 
+	~"W“kday_¡©i¡ics.hµ
+"
+
+19 þas 
+	cW“kday_¡©i¡ics
+{
+
+21 
+	m´iv©e
+:
+
+22 
+mÚday
+, 
+	mtuesday
+, 
+	mwedÃsday
+, 
+	mthursday
+, 
+	mäiday
+, 
+	m§turday
+, 
+	msunday
+;
+
+23 
+	mpublic
+:
+
+25 
+W“kday_¡©i¡ics
+();
+
+26 ~
+W“kday_¡©i¡ics
+();
+
+27 
+g‘_mÚday_v®ue
+();
+
+28 
+£t_mÚday_v®ue
+();
+
+29 
+g‘_tuesday_v®ue
+();
+
+30 
+£t_tuesday_v®ue
+();
+
+31 
+g‘_wedÃsday_v®ue
+();
+
+32 
+£t_wedÃsday_v®ue
+();
+
+33 
+g‘_thursday_v®ue
+();
+
+34 
+£t_thursday_v®ue
+();
+
+35 
+g‘_äiday_v®ue
+();
+
+36 
+£t_äiday_v®ue
+();
+
+37 
+g‘_§turday_v®ue
+();
+
+38 
+£t_§turday_v®ue
+();
+
+39 
+g‘_sunday_v®ue
+();
+
+40 
+£t_sunday_v®ue
+();
+
+41 
+W“kday_¡©i¡ics
+ 
+couÁ_13th
+(, );
+
+	@/home/f0x/Uni/info2/Info2/Blatt2/u2/a3/Weekday_statistics_main.cpp
+
+8 
+	~<io¡»am
+>
+
+10 
+	~"W“kday_¡©i¡ics.hµ
+"
+
+12 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+14 
+	$maš
+(){
+
+15 
+¡¬t_y—r
+=1900;
+
+16 
+y—r_off£t
+=1;
+
+17 
+W“kday_¡©i¡ics
+ 
+w“kday_¡©i¡ic
+;
+
+18 
+w“kday_¡©i¡ic
+.
+	`couÁ_13th
+(
+¡¬t_y—r
+, 
+y—r_off£t
+);
+
+19 
+cout
+ << 
+w“kday_¡©i¡ic
+.
+	`g‘_mÚday_v®ue
+(è<< " m® MÚg" << 
+’dl
+;
+
+20 
+cout
+ << 
+w“kday_¡©i¡ic
+.
+	`g‘_tuesday_v®ue
+(è<< " m® D›n¡ag" << 
+’dl
+;
+
+21 
+cout
+ << 
+w“kday_¡©i¡ic
+.
+	`g‘_wedÃsday_v®ue
+(è<< " m® M™twoch" << 
+’dl
+;
+
+22 
+cout
+ << 
+w“kday_¡©i¡ic
+.
+	`g‘_thursday_v®ue
+(è<< " m® DÚÃr¡ag" << 
+’dl
+;
+
+23 
+cout
+ << 
+w“kday_¡©i¡ic
+.
+	`g‘_äiday_v®ue
+(è<< " m® F»™ag" << 
+’dl
+;
+
+24 
+cout
+ << 
+w“kday_¡©i¡ic
+.
+	`g‘_§turday_v®ue
+(è<< " m® Sam¡ag" << 
+’dl
+;
+
+25 
+cout
+ << 
+w“kday_¡©i¡ic
+.
+	`g‘_sunday_v®ue
+(è<< " m® SÚÁag" << 
+’dl
+;
+
+27 
+	}
+}
+
+	@/home/f0x/Uni/info2/Info2/Blatt2/u2/a3/count_13th.cpp
+
+8 
+	~"W“kday_¡©i¡ics.hµ
+"
+
+9 
+	~"couÁ_13th.hµ
+"
+
+12 
+W“kday_¡©i¡ics
+ 
+	gW“kday_¡©i¡ics
+ :: 
+	$couÁ_13th
+(
+¡¬t_y—r
+, 
+y—r_off£t
+){
+
+13 
+W“kday_¡©i¡ics
+ 
+w“kday_¡©i¡ic
+;
+
+14 
+i
+=0;
+
+15 
+j
+=0;
+
+17 *
+‹mp
+;
+
+18 
+‹mp
+=
+Ãw
+ [
+y—r_off£t
+*12];
+
+19 
+boÞ
+ 
+sch®tjahr
+=
+çl£
+;
+
+22 if(((
+¡¬t_y—r
++
+i
+)%4==0)||(((start_year+i)%100==0)&&((start_year+i)%400==0)))
+
+23 
+sch®tjahr
+=
+Œue
+;
+
+24 if(
+sch®tjahr
+==
+Œue
+){
+
+27 
+‹mp
+[
+j
+]=((12+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+28 
+‹mp
+[
+j
+]=((43+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+29 
+‹mp
+[
+j
+]=((72+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+30 
+‹mp
+[
+j
+]=((103+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+31 
+‹mp
+[
+j
+]=((133+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+32 
+‹mp
+[
+j
+]=((165+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+33 
+‹mp
+[
+j
+]=((194+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+34 
+‹mp
+[
+j
+]=((225+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+35 
+‹mp
+[
+j
+]=((256+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+36 
+‹mp
+[
+j
+]=((286+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+37 
+‹mp
+[
+j
+]=((317+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+38 
+‹mp
+[
+j
+]=((347+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+46 
+‹mp
+[
+j
+]=((12+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+47 
+‹mp
+[
+j
+]=((43+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+48 
+‹mp
+[
+j
+]=((71+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+49 
+‹mp
+[
+j
+]=((102+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+50 
+‹mp
+[
+j
+]=((132+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+51 
+‹mp
+[
+j
+]=((164+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+52 
+‹mp
+[
+j
+]=((193+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+53 
+‹mp
+[
+j
+]=((224+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+54 
+‹mp
+[
+j
+]=((255+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+55 
+‹mp
+[
+j
+]=((285+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+56 
+‹mp
+[
+j
+]=((316+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+57 
+‹mp
+[
+j
+]=((346+(
+¡¬t_y—r
+-1900)%7)%7); j++;
+
+60 
+sch®tjahr
+=
+çl£
+;
+
+61 
+i
+++;
+
+62 }
+i
+<
+y—r_off£t
+);
+
+65 
+i
+=0; i<(12*
+y—r_off£t
+); i++){
+
+66 
+‹mp
+[
+i
+]){
+
+68 
+w“kday_¡©i¡ic
+.
+	`£t_mÚday_v®ue
+((w“kday_¡©i¡ic.
+	`g‘_mÚday_v®ue
+()+1)); ;
+
+70 
+w“kday_¡©i¡ic
+.
+	`£t_tuesday_v®ue
+((w“kday_¡©i¡ic.
+	`g‘_tuesday_v®ue
+()+1)); ;
+
+72 
+w“kday_¡©i¡ic
+.
+	`£t_wedÃsday_v®ue
+((w“kday_¡©i¡ic.
+	`g‘_wedÃsday_v®ue
+()+1)); ;
+
+74 
+w“kday_¡©i¡ic
+.
+	`£t_thursday_v®ue
+((w“kday_¡©i¡ic.
+	`g‘_thursday_v®ue
+()+1)); ;
+
+76 
+w“kday_¡©i¡ic
+.
+	`£t_äiday_v®ue
+((w“kday_¡©i¡ic.
+	`g‘_äiday_v®ue
+()+1)); ;
+
+78 
+w“kday_¡©i¡ic
+.
+	`£t_§turday_v®ue
+((w“kday_¡©i¡ic.
+	`g‘_§turday_v®ue
+()+1)); ;
+
+80 
+w“kday_¡©i¡ic
+.
+	`£t_sunday_v®ue
+((w“kday_¡©i¡ic.
+	`g‘_sunday_v®ue
+()+1)); ;
+
+86  
+w“kday_¡©i¡ic
+;
+
+87 
+	}
+}
+
+	@/home/f0x/Uni/info2/Info2/Blatt2/u2/a3/count_13th.hpp
+
+7 #iâdeà
+BLATT2_U2_COUNT_13TH_HPP_
+
+
+8 
+	#BLATT2_U2_COUNT_13TH_HPP_
+
+
+	)
+
+9 
+	~"W“kday_¡©i¡ics.hµ
+"
+
+10 
+W“kday_¡©i¡ics
+ 
+couÁ_13th
+(, );
+
+	@Weekday_statistics.hpp
+
+8 #iâdeà
+BLATT2_U2_WEEKDAY_STATISTICS_HPP_
+
+
+9 
+	#BLATT2_U2_WEEKDAY_STATISTICS_HPP_
+
+
+	)
+
+18 
+	~"W“kday_¡©i¡ics.hµ
+"
+
+19 þas 
+	cW“kday_¡©i¡ics
+{
+
+21 
+	m´iv©e
+:
+
+22 
+mÚday
+, 
+	mtuesday
+, 
+	mwedÃsday
+, 
+	mthursday
+, 
+	mäiday
+, 
+	m§turday
+, 
+	msunday
+;
+
+23 
+	mpublic
+:
+
+25 
+W“kday_¡©i¡ics
+();
+
+26 ~
+W“kday_¡©i¡ics
+();
+
+27 
+g‘_mÚday_v®ue
+();
+
+28 
+£t_mÚday_v®ue
+();
+
+29 
+g‘_tuesday_v®ue
+();
+
+30 
+£t_tuesday_v®ue
+();
+
+31 
+g‘_wedÃsday_v®ue
+();
+
+32 
+£t_wedÃsday_v®ue
+();
+
+33 
+g‘_thursday_v®ue
+();
+
+34 
+£t_thursday_v®ue
+();
+
+35 
+g‘_äiday_v®ue
+();
+
+36 
+£t_äiday_v®ue
+();
+
+37 
+g‘_§turday_v®ue
+();
+
+38 
+£t_§turday_v®ue
+();
+
+39 
+g‘_sunday_v®ue
+();
+
+40 
+£t_sunday_v®ue
+();
+
+41 
+W“kday_¡©i¡ics
+ 
+couÁ_13th
+(, );
+
+	@count_13th.hpp
+
+7 #iâdeà
+BLATT2_U2_COUNT_13TH_HPP_
+
+
+8 
+	#BLATT2_U2_COUNT_13TH_HPP_
+
+
+	)
+
+9 
+	~"W“kday_¡©i¡ics.hµ
+"
+
+10 
+W“kday_¡©i¡ics
+ 
+couÁ_13th
+(, );
+
+	@
+1
+.
+1
+/usr/include
+7
+337
+/home/f0x/Uni/info2/Info2/Blatt2/u2/a3/Weekday_statistics.cpp
+/home/f0x/Uni/info2/Info2/Blatt2/u2/a3/Weekday_statistics.hpp
+/home/f0x/Uni/info2/Info2/Blatt2/u2/a3/Weekday_statistics_main.cpp
+/home/f0x/Uni/info2/Info2/Blatt2/u2/a3/count_13th.cpp
+/home/f0x/Uni/info2/Info2/Blatt2/u2/a3/count_13th.hpp
+Weekday_statistics.hpp
+count_13th.hpp

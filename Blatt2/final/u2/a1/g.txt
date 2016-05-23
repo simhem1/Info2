@@ -1,0 +1,1 @@
+O(2^n), da Grenzwert von (N^100/2^2n) für N gegen Unendlich existiert.

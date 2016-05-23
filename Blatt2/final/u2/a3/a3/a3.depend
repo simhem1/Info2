@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1463996540 source:/home/f0x/Uni/info2/Info2/Blatt2/u2/a3/Weekday_statistics.cpp
+	"Weekday_statistics.hpp"
+
+1463997421 /home/f0x/Uni/info2/Info2/Blatt2/u2/a3/Weekday_statistics.hpp
+	"Weekday_statistics.hpp"
+
+1463997429 source:/home/f0x/Uni/info2/Info2/Blatt2/u2/a3/count_13th.cpp
+	"Weekday_statistics.hpp"
+	"count_13th.hpp"
+	<iostream>
+
+1463919064 /home/f0x/Uni/info2/Info2/Blatt2/u2/a3/count_13th.hpp
+	"Weekday_statistics.hpp"
+
+1463997421 source:/home/f0x/Uni/info2/Info2/Blatt2/u2/a3/Weekday_statistics_main.cpp
+	<iostream>
+	"Weekday_statistics.hpp"
+

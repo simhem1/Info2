@@ -1,0 +1,4 @@
+0(n^2), da die Variablendeklarationen und die Inkrementierung als konstante Operationen
+vernachlässbar sind. Entscheidend ist also das for-Schleifen-Konstrukt.
+Aufgrund der Verschachtelung der beiden Schleifen und der Abhängigkeit der inneren von 
+den äußeren ergibt sich O(n^2)

@@ -23,10 +23,12 @@ void buffy(void){
 	string eingabe;
 	cout << "Werte eingeben: ";
 	getline(cin, eingabe);
-	//cout << "bla" << endl;
-	cout << eingabe << endl;
-	eingabe.erase(remove_if(eingabe.begin(), eingabe.end(), ::isspace), eingabe.end());
-	cout << eingabe << endl;
+	//TODO: split string into substrings and parse substrings to int
+
+
+
+
+
 
 
 

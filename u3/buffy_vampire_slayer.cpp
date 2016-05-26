@@ -1,0 +1,92 @@
+#include "buffy_vampire_slayer.hpp"
+#include <iostream>
+
+// take all powers and count those of the zombies and vampires
+// we return a struct that carries the counter of both creature types
+creature_counts count_creatures(int N, int creature_powers[]) {
+
+	// this will be our return element
+	creature_counts counts;
+
+	// these will carry the overall powers of both creature types
+	int sum_zombie_powers = 0;
+	int sum_vampire_powers = 0;
+
+	int count_zombies = 0;
+	int count_vampires = 0;
+
+	// TODO: implement the counting operations here...
+
+	for(int i=0; i<N; i++){
+		if(creature_powers[i]%2==0)
+			count_zombies++;
+		else
+			count_vampires++;
+	}
+
+	// your implementation should compute the power sums and counts of both creature types
+	// use the following to initialize the struct with the computed values
+	counts.zombie_count = count_zombies;
+	counts.vampire_count = count_vampires;
+
+	counts.zombie_sum = sum_zombie_powers;
+	counts.vampire_sum = sum_vampire_powers;
+
+	return counts;
+}
+
+void swap(int *a,int *b) {
+	// TODO: do all the swapping!!!
+	int *temp=NULL;
+	temp=a;
+	a=b;
+	b=temp;
+}
+
+// take all monsters and sort them
+int *sort(int *elements, int length) {
+
+	// TODO: perform your sorting on the elements
+	// you can treat it just like a normal array, indexing like element[i], ...
+
+	// return the pointer to the now sorted array
+	int links, minimum;
+	links=0;
+	minimum=0;
+	do{
+		minimum=links;
+		for(int i=links+1; i<length; i++){
+			if(elements[i]<elements[minimum])
+				i=minimum;
+
+		}
+		swap(&elements[links], &elements[minimum]);
+		links++;
+	}while (links<length);
+	return elements;
+}
+
+int *create_attack_plan(int N, int *elements, creature_counts counts) {
+
+	// TODO: take the sorted array and add the summed attack powers
+	// take care of the indices, this part will be a bit tricky
+	// use debug prints if your have trouble with correct indexing
+	// example: std::cout << "elements[i] = " << elements[i] << std::endl;
+	int *attack_plan = new int [N+2];
+	int *calc = new int [N];
+	for(int i=0; i < counts.zombie_count; i++)
+		attack_plan[i]=elements[i];
+	for(int i=0; i< counts.zombie_count; i++)
+		calc[i]+=elements[i];
+	attack_plan[counts.zombie_count]=calc[(counts.zombie_count)-1];
+	counts.zombie_sum=attack_plan[counts.zombie_count];
+	for(int i=(counts.zombie_count)+1; i<N; i++)
+		attack_plan[i]=elements[i];
+	for(int i=(counts.zombie_count)+1; i<N; i++)
+		calc[i]+=elements[i];
+	attack_plan[counts.vampire_count]=calc[(counts.vampire_count)-1];
+	counts.vampire_sum=attack_plan[counts.vampire_sum];
+	return attack_plan;
+	delete[] calc;
+	delete[] attack_plan;
+}

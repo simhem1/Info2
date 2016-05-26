@@ -1,16 +1,17 @@
-/*
- * buffy_vampire_slayer.hpp
- *
- *  Created on: 23.05.2016
- *      Author: simon
- */
+#ifndef __BUFFY_VAMPIRE_SLAYER_HPP__
+#define __BUFFY_VAMPIRE_SLAYER_HPP__
 
-#ifndef U3_A1_BUFFY_VAMPIRE_SLAYER_HPP_
-#define U3_A1_BUFFY_VAMPIRE_SLAYER_HPP_
+typedef struct creature_counts {
+	int zombie_count;
+	int vampire_count;
+	int zombie_sum;
+	int vampire_sum;
+	// ... insert more variables here
+} creature_counts;
 
-void buffy(void);
+creature_counts count_creatures(int N, int creature_powers[]);
+int *create_attack_plan(int N, int elements[], creature_counts c);
+int *sort(int elements[], int length);
+void swap(int *a,int *b);
 
-
-
-
-#endif /* U3_A1_BUFFY_VAMPIRE_SLAYER_HPP_ */
+#endif

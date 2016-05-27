@@ -34,11 +34,11 @@ int compare_by_frequency(std::string a, std::string b, char c) {
 
 	int counter_a=0;
 	int counter_b=0;
-	for(int i=a.begin(); i<a.end(); i++){
+	for(int i=0; i<a.length(); i++){
 		if(a.at(i)==c)
 			counter_a++;
 	}
-	for(int i=b.begin(); i<b.end(); i++){
+	for(int i=0; i<b.length(); i++){
 		if(a.at(i)==c)
 			counter_b++;
 	}

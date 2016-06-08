@@ -2,4 +2,4 @@ Generell ist es schwierig, solche Pauschalaussagen zu tätigen,
 da die Wahl des Sortieralgorithmus erheblich von der Geschwindigkeit
 der einzelnen Operationen auf der verwendeten Plattform abhängt.
 Im Allgemeinen lässt sich aber sagen, dass man für kleine Daten
-eher Insertion 
+Insertion Sort verwenden sollte, da dieses den geringsten overhead und damit die effektivste vorgehensweise bei kleinene datenmengen hat.

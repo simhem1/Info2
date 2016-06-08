@@ -2,7 +2,7 @@
  * Orange.hpp
  *
  *  Created on: 07.06.2016
- *      Author: simon
+ *      Author: Simon Hemmerich
  */
 
 #ifndef U4_A1_ORANGE_HPP_

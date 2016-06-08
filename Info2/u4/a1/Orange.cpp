@@ -2,7 +2,7 @@
  * Orange.cpp
  *
  *  Created on: 07.06.2016
- *      Author: simon
+ *      Author: Simon Hemmerich
  */
 
 #include "Orange.hpp"
@@ -12,7 +12,7 @@ Orange::Orange(const int sweetness, const int juicyness){
 	this->juicyness=juicyness;
 }
 
-virtual Orange::~Orange(){
+Orange::~Orange(){
 
 }
 

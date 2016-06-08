@@ -21,7 +21,7 @@ public:
 	void setSweetness(const int);
 	void setJuicyness(const int);
 	Orange(int, int);
-	~Orange();
+	virtual ~Orange();
 	bool operator<(Orange);
 };
 

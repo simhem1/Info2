@@ -12,7 +12,7 @@ Orange::Orange(const int sweetness, const int juicyness){
 	this->juicyness=juicyness;
 }
 
-Orange::~Orange(){
+virtual Orange::~Orange(){
 
 }
 

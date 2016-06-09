@@ -7,7 +7,7 @@
 
 #include "Orange.hpp"
 
-Orange::Orange(const int sweetness, const int juicyness){
+Orange::Orange(int sweetness, int juicyness){
 	this->sweetness=sweetness;
 	this->juicyness=juicyness;
 }

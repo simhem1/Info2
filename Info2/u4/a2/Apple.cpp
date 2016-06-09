@@ -34,6 +34,6 @@ void Apple :: setJuicyness(const int juicyness){
 
 bool Apple :: operator<(Apple other){
 	return
-			(3*(this->getSweetness())+(this->getJuicyness()) < (3*(other.getSweetness()) + other.getJuicyness()))? true
+			(3* ( this->getSweetness() )+( this->getJuicyness() ) < (3*( other.getSweetness() ) + other.getJuicyness() ) )? true
 			: false;
 }

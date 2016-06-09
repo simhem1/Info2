@@ -32,6 +32,8 @@ void Apple :: setJuicyness(const int juicyness){
 	this->juicyness=juicyness;
 }
 
-/*bool Apple :: operator<(Orange other){
+bool Apple :: operator<(Apple other){
 	return
-}*/
+			(3*(this->getSweetness())+(this->getJuicyness()) < (3*(other.getSweetness()) + other.getJuicyness()))? true
+			: false;
+}

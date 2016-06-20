@@ -15,7 +15,7 @@ creature_counts count_creatures(int N, int creature_powers[]) {
 	int count_vampires = 0;
 
 
-	// TODO: implement the counting operations here...
+	// implement the counting operations here...
 
 	for(int i=0; i<N; i++){
 		if(creature_powers[i]%2==0){
@@ -38,7 +38,7 @@ creature_counts count_creatures(int N, int creature_powers[]) {
 }
 
 void swap(int *a,int *b) {
-	// TODO: do all the swapping!!!
+	// do all the swapping!!!
 	int temp;
 	temp=*a;
 	*a=*b;
@@ -48,7 +48,7 @@ void swap(int *a,int *b) {
 // take all monsters and sort them
 int *sort(int *elements, int length) {
 
-	// TODO: perform your sorting on the elements
+	// perform your sorting on the elements
 	// you can treat it just like a normal array, indexing like element[i], ...
 
 	// return the pointer to the now sorted array
@@ -115,7 +115,7 @@ int *sort(int *elements, int length) {
 
 int *create_attack_plan(int N, int *elements, creature_counts counts) {
 
-	// TODO: take the sorted array and add the summed attack powers
+	// take the sorted array and add the summed attack powers
 	// take care of the indices, this part will be a bit tricky
 	// use debug prints if your have trouble with correct indexing
 	// example: std::cout << "elements[i] = " << elements[i] << std::endl;

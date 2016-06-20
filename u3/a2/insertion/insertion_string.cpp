@@ -24,7 +24,7 @@ std::vector<std::string> insertion_sort (std::vector<std::string> strings, char 
 		strings.at(j+1)=temp;
 	}
 
-	// TODO: insertion sort should go here...
+	// insertion sort should go here...
 
 	// this should be the sorted vector of strings
 	return strings;

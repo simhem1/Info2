@@ -28,7 +28,7 @@ std::vector<std::string> selection_sort (std::vector<std::string> strings, char 
 	}while(links<strings.size());
 
 
-//TODO selection sort...
+// selection sort...
 
 	return strings;
 }

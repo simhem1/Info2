@@ -1,1 +1,0 @@
-O(1), da durch Umformung 2log(N)/log(N) = 2 entsteht, da der Grenzwert von 2 für N gegen Unendlich existiert, gilt O(1)

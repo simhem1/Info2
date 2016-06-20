@@ -1,1 +1,0 @@
-O(n), da 1 als Konstante wegfällt und 1/N als N^-1 linear zur Eingabe fällt.

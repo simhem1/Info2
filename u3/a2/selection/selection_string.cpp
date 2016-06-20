@@ -12,6 +12,7 @@ std::vector<std::string> selection_sort (std::vector<std::string> strings, char 
 
 	int links;
 	int minimum;
+	std::string temp;
 
 	do{
 		minimum=links;
@@ -20,7 +21,9 @@ std::vector<std::string> selection_sort (std::vector<std::string> strings, char 
 				minimum=i;
 			}
 		}
-		(strings.at(links)).swap(strings.at(minimum));
+		temp=strings.at(links);
+		strings.at(links)=strings.at(minimum);
+		strings.at(minimum)=temp;
 		links++;
 	}while(links<strings.size());
 
@@ -34,7 +37,7 @@ int compare_by_frequency(std::string a, std::string b, char c) {
 
 	int counter_a=0;
 	int counter_b=0;
-	for(int i=0; i< a.length(); i++){
+	for(int i=0; i<a.length(); i++){
 		if(a.at(i)==c)
 			counter_a++;
 	}

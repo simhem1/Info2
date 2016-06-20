@@ -1,5 +1,0 @@
-Im Gegensatz zur vorherigen Situation stellt ein umgekehrt sortiertes Array den Worst Case
-für den Insertionsort-Algorithmus dar. Der Algorithmus benötigt dann O(n^2) Vergleichsoperationen
-und O(n^2) Datenverschiebungsoperationen. Der Selectionsort-Algorithmus benötigt in diesem Fall
-zwar auch O(n^2) Vergleichsoperationen, aber nur O(n) Datenverschiebungsoperation, weshalb
-dieser hier dem Insertionsort-Algorithmus vorzuziehen ist.

@@ -14,13 +14,15 @@ std::vector<std::string> insertion_sort (std::vector<std::string> strings, char 
 	// use the size() function to get the number of strings from the vector
 	int number_of_strings = strings.size();
 	int i=2;
-	do{
-
-
-
-
-
-	}while(i<strings.size());
+	for(int i=1; i<number_of_strings;i++){
+		std::string temp = strings.at(i);
+		int j = i-1;
+		while(j>=0 && (compare_by_frequency(strings.at(i),temp, c) == 1)){
+			strings.at(j+1)=strings.at(j);
+			j--;
+		}
+		strings.at(j+1)=temp;
+	}
 
 	// TODO: insertion sort should go here...
 
@@ -28,7 +30,7 @@ std::vector<std::string> insertion_sort (std::vector<std::string> strings, char 
 	return strings;
 }
 
-int compare_to(std::string a, std::string b, char c) {
+int compare_by_frequency(std::string a, std::string b, char c) {
 
 	// these will carry the counts of chars in both strings
 

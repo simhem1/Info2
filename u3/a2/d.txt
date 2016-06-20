@@ -1,0 +1,9 @@
+Selection Sort:
+Die durchschnittliche Geschwindigkeit beträgt O(N²). Jedoch sind der worst und d
+er best case genauso schnell wie der durchschnittliche Fall.
+Es gibt insgesamt (n+1) + (n+2) +...+ 2 + 1 Durchläufe.
+
+
+Insertion Sort:
+Die durchschnittliche Geschwindigkeit beträgt O(N²). Im besten Fall beträgt die Laufzeit nur O(N), da der Algorithmus direkt erkennt, dass die Daten sortiert sind.
+

@@ -1,3 +1,0 @@
-Für nahezu sortierte Arrays sollte man den Insertionsort-Algorithmus bevorzugen, da ein vollständig
-sortiertes Array den Best Case dieses Algorithmus darstellt. Der Algorithmus arbeitet dann in O(n),
-was erheblich besser als die Komplexität O(n^2) des Selectionsort-Algorithmus ist.

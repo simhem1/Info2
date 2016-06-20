@@ -1,2 +1,0 @@
-O(N^3), da bei einer Summe von Polynomen jenes mit dem höchsten Exponenten entscheidend ist,
-dieses Polynom hat hier den Exponenten 3 => O(N^3)

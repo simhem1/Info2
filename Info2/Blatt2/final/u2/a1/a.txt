@@ -1,1 +1,0 @@
-O(n), da Konstanten vernachlässigbar sind und somit nur N übrigbleibt.

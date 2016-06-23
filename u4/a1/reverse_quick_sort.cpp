@@ -14,7 +14,7 @@ bool smaller(const T& a, const T& b){
 }
 ///Muss man noch umdrehen!!!
 
-template<typename T>
+/*template<typename T>
 void reverse_quick_sort(std::vector<Orange>* oranges, int left, int right){
     int l=left, r=right;
     std::vector<Orange> mid=oranges[(left+right)/2];
@@ -34,5 +34,5 @@ void reverse_quick_sort(std::vector<Orange>* oranges, int left, int right){
         reverse_quick_sort(oranges, left, r);
     if(l<right)
         reverse_quick_sort(oranges, l, right);
-}
+}*/
 

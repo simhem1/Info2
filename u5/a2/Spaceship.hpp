@@ -4,15 +4,17 @@
 #include <string>
 
 class Spaceship {
+ private:
+	 int speed;
+	 std::string type;
  public:
-  
-	 // Eigenschaften der Raumschiffe
-	 
-	 // Konstruktor
-	 
-	 // Hier wird der Operator überladen, diesen Teil geben wir noch vor, die Implementierung
-	 // muss aber selbstständig gelöst werden!
+	 Spaceship(std::string, int);
+	 virtual ~Spaceship();
 	 bool operator==(Spaceship);
+	 void setSpeed(const int);
+	 const int getSpeed(void);
+	 void setType(const std::string&);
+	 const std::string& getType(void);
 };
 
 #endif

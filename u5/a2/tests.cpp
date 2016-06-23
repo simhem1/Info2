@@ -2,7 +2,7 @@
 #include "catch.hpp"
 
 #include "Spaceship.hpp"
-#include "binary_Search.hpp"
+#include "binary_search.hpp"
 
 using namespace std;
 

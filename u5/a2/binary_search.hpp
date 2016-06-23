@@ -6,6 +6,7 @@
 #include "Spaceship.hpp"
 
 // es wird die Liste aller Schiffe übergeben und der Eintrag nach dem wir suchen
-int binary_search_upper(std::vector<Spaceship> ships, Spaceship ship);
+int binary_search_upper(std::vector<Spaceship>, Spaceship);
+
 
 #endif

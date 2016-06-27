@@ -12,14 +12,12 @@ TEST_CASE("Hash: \"Power Rangers Dino Thunder\" == 125")
  unsigned char result = 125;
   REQUIRE(string_hash(s) == result);
  }
-
 TEST_CASE("Hash: \"Teenage Mutant Ninja Turtles\" == 145")
  {
  std::string s = "Teenage Mutant Ninja Turtles";
  unsigned char result = 145;
   REQUIRE(string_hash(s) == result);
  }
-
 
 TEST_CASE("Hashtable: get/put")
  {
@@ -32,4 +30,3 @@ TEST_CASE("Hashtable: get/put")
  int out = t.get(s);
   REQUIRE(in == out);
  }
-

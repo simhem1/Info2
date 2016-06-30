@@ -1,3 +1,4 @@
+
 #include "binary_search.hpp"
 
 int binary_search_upper (std::vector<Spaceship> ships, Spaceship ship){

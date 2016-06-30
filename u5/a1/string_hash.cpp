@@ -2,12 +2,17 @@
 
 unsigned char string_hash(std::string s) {
         int ret=0;
-        int c=(int)s[s.length()-1];
-        if(c!=s[0]){
-                s.resize((int)s.length()-1);
-                ret=(int)string_hash(s)^c;
-                ret=(ret<<1)%255;
+        //Speichere den letzten Buchstaben als c
+        unsigned char c=s[s.length()-1];
+        if(s.length()!=0){
+                //Verkürze den String um eins
+                s.resize(s.length()-1);
+                //Rekursion
+                ret=string_hash(s)^c;
+                //Zyklischer Shift nach Links
+                ret=(ret << 1)|(ret >> (sizeof(char)*CHAR_BIT - 1));
         }
         std::cout << ret << std::endl;
         return (unsigned char)ret;
 }
+

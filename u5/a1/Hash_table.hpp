@@ -6,11 +6,11 @@
 #include "string_hash.hpp"
 
 class Hash_table {
+        // Platz für viele tolle Methoden und Parameter
     private:
         std::vector<int> bewertungen;
     public:
         Hash_table();
-	// Platz für viele tolle Methoden und Parameter
         void put(std::string, int);
         int get(std::string title);
 };

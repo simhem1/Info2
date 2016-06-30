@@ -2,7 +2,7 @@
 #define __STRING_HASH_HPP__
 
 #include <string>
-///test
+#include <climits>
 #include <iostream>
 
 unsigned char string_hash(std::string);

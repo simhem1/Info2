@@ -10,13 +10,15 @@ int binary_search_upper (std::vector<Spaceship> ships, Spaceship ship){
 	for(int suchwert = obereSchranke; suchwert > untereSchranke-1; suchwert--){
 		while((untereSchranke <= obereSchranke) && maximum_gefunden==false){
 			mitte=untereSchranke+((obereSchranke-untereSchranke)/2);
-			if(ships[mitte].getSpeed()==suchwert)
+			if(ships[mitte].getSpeed()==suchwert){
 				maximum_gefunden=true;
 				return mitte;
+			}
 			if(ships[mitte].getSpeed()>suchwert)
 				obereSchranke=mitte-1;
 			if(ships[mitte].getSpeed()<suchwert)
 				untereSchranke=mitte+1;
 			}
-	}
+		}
+	return 0;
 }

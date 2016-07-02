@@ -6,6 +6,5 @@
 #include "binary_search.hpp"
 
 std::vector<Spaceship> fastest_of_class(std::vector<Spaceship>);
-void operator= (Spaceship, Spaceship);
 
 #endif

@@ -3,6 +3,7 @@
 
 #include "Spaceship.hpp"
 #include "binary_search.hpp"
+#include "fastest_of_class.hpp"
 
 using namespace std;
 

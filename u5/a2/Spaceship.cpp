@@ -10,7 +10,10 @@ Spaceship::~Spaceship()
 
 }
 bool Spaceship::operator==(Spaceship other){
-	return (((this->speed)/100)==((other.getSpeed())/100));
+	if(((this->speed)/100)==((other.getSpeed())))
+		return true;
+	else
+		return false;
 }
 
 void Spaceship::setSpeed(const int speed){

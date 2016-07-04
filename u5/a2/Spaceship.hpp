@@ -15,7 +15,6 @@ class Spaceship {
 	 const int getSpeed(void);
 	 void setType(const std::string&);
 	 const std::string& getType(void);
-
 };
 
 #endif

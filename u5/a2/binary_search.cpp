@@ -1,6 +1,6 @@
 #include "binary_search.hpp"
 
-int binary_search_upper (std::vector<Spaceship> ships, Spaceship ship){
+/*int binary_search_upper (std::vector<Spaceship> ships, Spaceship ship){
 
 	//Array mithilfe von Insertionsort aufsteigend sortieren
 	int numberOfShips = ships.size();
@@ -37,3 +37,4 @@ int binary_search_upper (std::vector<Spaceship> ships, Spaceship ship){
 
 
 }
+*/

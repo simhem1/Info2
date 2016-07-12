@@ -1,4 +1,4 @@
-#define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
+/*#define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
 #include "catch.hpp"
 
 #include "Spaceship.hpp"
@@ -45,3 +45,4 @@ TEST_CASE("Fastest of Class")
  vector<Spaceship> result = fastest_of_class(ships);
   REQUIRE(result.size() == 1);
  }
+*/

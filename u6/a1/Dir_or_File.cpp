@@ -45,6 +45,14 @@ std::vector<std::string> Dir_or_File::split_after_slash(std::string full_path)
 
 void Dir_or_File::insert(std::vector<std::string> names)
 {
+    std::string lastVectorElement = names.at(names.size()-1);
+    if(lastVectorElement.at(lastVectorElement.size()-1) == '/'){
+        //falls letztes Zeichen des letzten Strings / => Verzeichnis
+    }
+
+    else{
+        //falls letztes Zeichen des letzten Strings != / => Datei
+    }
     // now comes the insertion of new entries
     // again make sure to distinguihs between files and directories
 }

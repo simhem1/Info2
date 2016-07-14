@@ -7,6 +7,7 @@
 
 Dir_or_File::Dir_or_File(std::string name)
 {
+    is_file = (name.at(name.length()-1)!='/') ? true : false;
     // constructor stuff goes here
     // make sure that is_file is set according to the '/' rules -> make a check here!
 }
